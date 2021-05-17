@@ -1,17 +1,18 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\karly\Documents\projeto_edge\28Pins_Project_v1I1_PCB.PcbDoc
-Date     : 17/05/2021
-Time     : 12:16:47
+PCB File : C:\Users\EDGE\Documents\Sophia\projeto_edge\28Pins_Project_v1I1_PCB.PcbDoc
+Date     : 5/17/2021
+Time     : 5:33:37 PM
 
-Processing Rule : Clearance Constraint (Gap=0.005mm) (All),(All)
-   Violation between Clearance Constraint: (Collision < 0.005mm) Between Pad R27-2(33mm,6.55mm) on Top Layer And Pad R28-2(33mm,6.45mm) on Top Layer 
-Rule Violations :1
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Short-Circuit Constraint: Between Pad R27-2(33mm,6.55mm) on Top Layer And Pad R28-2(33mm,6.45mm) on Top Layer Location : [X = 479.405mm][Y = 454.302mm]
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.4mm) (Max=4mm) (Preferred=0.4mm) (InNet('+*') And OnLayer('GND'))
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.3mm) (Max=0.5mm) (Preferred=0.3mm) (All)
@@ -29,160 +30,6 @@ Rule Violations :0
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Fabrication Testpoint Style (Under Component=Yes) (All)
-Rule Violations :0
-
-Processing Rule : Fabrication Testpoint Usage (Valid =One Required, Allow multiple per net=No) (All)
-   Violation between Fabrication Testpoint Usage: Net +3V3 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net +3V3_16U2_UCAP - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net +5V - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net +5V/3V3 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net +5V/3V3_16U2 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net +5V/3V3_328P_AVCC - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net +5V/3V3_328P_VCC - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net +5V_USB - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net +AREF - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 16U2_16MHZ_XTAL1 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 16U2_16MHZ_XTAL2 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 16U2_BUF_RESETn - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 16U2_HDR_RESETn - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 16U2_MISO - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 16U2_MOSI - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 16U2_PB4 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 16U2_PB5 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 16U2_PB6 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 16U2_PB7 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 16U2_RESETn - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 16U2_RX_LED - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 16U2_RXD - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 16U2_SCLK - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 16U2_SCLK_R - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 16U2_TX_LED - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 16U2_TXD - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 16U2PROG_328P_RESETn - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 328P_16MHZ_XTAL1 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 328P_16MHZ_XTAL2 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 328P_AUTORESETn - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 328P_BUF_RESETn - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net 328P_RESETn - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net AD0 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net AD1 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net AD2 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net AD3 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net AD4/SDA - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net AD5/SCL - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net BUTTON_RESETn - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net CON_USB_N - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net CON_USB_P - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net GND - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net IO0 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net IO1 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net IO2 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net IO3 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net IO4 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net IO5 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net IO6 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net IO7 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net IO8 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net IO9 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net MISO - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net MOSI - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net NetC11_2 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net NetD1_2 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net NetD2_1 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net NetD2_2 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net NetD3_2 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net NetD4_2 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net NetD5_2 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net NetJ7_4 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net NetJP1_3 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net NetR22_1 - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net SCK - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net SCK_R - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net SS - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net USB_N - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net USB_P - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net USER_BUTTON - Missing required testpoint
-   Violation between Fabrication Testpoint Usage: Net USER_BUTTON_BUF - Missing required testpoint
-Rule Violations :71
-
-Processing Rule : Assembly Testpoint Style (Under Component=Yes) (All)
-Rule Violations :0
-
-Processing Rule : Assembly Testpoint Usage (Valid =One Required, Allow multiple per net=No) (All)
-   Violation between Assembly Testpoint Usage: Net +3V3 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net +3V3_16U2_UCAP - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net +5V - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net +5V/3V3 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net +5V/3V3_16U2 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net +5V/3V3_328P_AVCC - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net +5V/3V3_328P_VCC - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net +5V_USB - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net +AREF - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 16U2_16MHZ_XTAL1 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 16U2_16MHZ_XTAL2 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 16U2_BUF_RESETn - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 16U2_HDR_RESETn - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 16U2_MISO - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 16U2_MOSI - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 16U2_PB4 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 16U2_PB5 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 16U2_PB6 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 16U2_PB7 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 16U2_RESETn - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 16U2_RX_LED - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 16U2_RXD - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 16U2_SCLK - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 16U2_SCLK_R - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 16U2_TX_LED - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 16U2_TXD - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 16U2PROG_328P_RESETn - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 328P_16MHZ_XTAL1 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 328P_16MHZ_XTAL2 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 328P_AUTORESETn - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 328P_BUF_RESETn - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net 328P_RESETn - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net AD0 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net AD1 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net AD2 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net AD3 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net AD4/SDA - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net AD5/SCL - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net BUTTON_RESETn - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net CON_USB_N - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net CON_USB_P - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net GND - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net IO0 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net IO1 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net IO2 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net IO3 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net IO4 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net IO5 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net IO6 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net IO7 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net IO8 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net IO9 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net MISO - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net MOSI - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net NetC11_2 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net NetD1_2 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net NetD2_1 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net NetD2_2 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net NetD3_2 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net NetD4_2 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net NetD5_2 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net NetJ7_4 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net NetJP1_3 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net NetR22_1 - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net SCK - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net SCK_R - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net SS - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net USB_N - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net USB_P - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net USER_BUTTON - Missing required testpoint
-   Violation between Assembly Testpoint Usage: Net USER_BUTTON_BUF - Missing required testpoint
-Rule Violations :71
-
 Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=10mm) (All)
 Rule Violations :0
 
@@ -193,58 +40,14 @@ Processing Rule : Hole To Hole Clearance (Gap=0.3mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (0.065mm < 0.1mm) Between Pad MH3-1(66.04mm,35.56mm) on Multi-Layer And Pad SW1-3(66.925mm,30.725mm) on Multi-Layer [Top Solder] Mask Sliver [0.065mm] / [Bottom Solder] Mask Sliver [0.065mm]
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
    Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.1mm) Between Arc (15.24mm,50.8mm) on Top Overlay And Pad J4-10(18.796mm,50.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.1mm) Between Pad C1-1(7.3mm,13.5mm) on Top Layer And Track (8.174mm,14.584mm)(11.476mm,14.584mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.1mm) Between Pad C1-1(7.3mm,13.5mm) on Top Layer And Track (8.174mm,14.584mm)(8.174mm,16.616mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.1mm) Between Pad D5-1(0.9mm,27.519mm) on Top Layer And Track (1.27mm,27.85mm)(1.27mm,32.93mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.1mm) Between Pad D5-1(0.9mm,27.519mm) on Top Layer And Track (1.27mm,27.85mm)(6.35mm,27.85mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.1mm) Between Pad D5-2(0.9mm,25.081mm) on Top Layer And Track (0.049mm,24.716mm)(3.351mm,24.716mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.073mm < 0.1mm) Between Pad J7-1(4.875mm,20.1mm) on Top Layer And Track (5.175mm,20.5mm)(5.175mm,20.9mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.073mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.073mm < 0.1mm) Between Pad J7-5(4.875mm,17.5mm) on Top Layer And Track (5.175mm,16.7mm)(5.175mm,17.1mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.073mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.049mm < 0.1mm) Between Pad J7-6(4.65mm,22mm) on Top Layer And Track (5.499mm,20.934mm)(5.499mm,22.966mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.049mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.1mm) Between Pad J7-8(2.2mm,22.1mm) on Multi-Layer And Track (0.049mm,22.684mm)(3.351mm,22.684mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.099mm < 0.1mm) Between Pad J8-1(2.1mm,2.2mm) on Multi-Layer And Track (0.6mm,4.4mm)(3.8mm,4.4mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.099mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.05mm < 0.1mm) Between Pad R23-1(0.75mm,23.7mm) on Top Layer And Track (0.2mm,24.5mm)(1.6mm,24.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.05mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-1(62.065mm,20.193mm) on Multi-Layer And Track (27.755mm,21.383mm)(63.355mm,21.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-10(39.205mm,20.193mm) on Multi-Layer And Track (27.755mm,21.383mm)(63.355mm,21.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-11(36.665mm,20.193mm) on Multi-Layer And Track (27.755mm,21.383mm)(63.355mm,21.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-12(34.125mm,20.193mm) on Multi-Layer And Track (27.755mm,21.383mm)(63.355mm,21.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-13(31.585mm,20.193mm) on Multi-Layer And Track (27.755mm,21.383mm)(63.355mm,21.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-14(29.045mm,20.193mm) on Multi-Layer And Track (27.755mm,21.383mm)(63.355mm,21.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-15(29.045mm,12.573mm) on Multi-Layer And Track (27.755mm,11.383mm)(63.355mm,11.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-16(31.585mm,12.573mm) on Multi-Layer And Track (27.755mm,11.383mm)(63.355mm,11.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-17(34.125mm,12.573mm) on Multi-Layer And Track (27.755mm,11.383mm)(63.355mm,11.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-18(36.665mm,12.573mm) on Multi-Layer And Track (27.755mm,11.383mm)(63.355mm,11.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-19(39.205mm,12.573mm) on Multi-Layer And Track (27.755mm,11.383mm)(63.355mm,11.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-2(59.525mm,20.193mm) on Multi-Layer And Track (27.755mm,21.383mm)(63.355mm,21.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-20(41.745mm,12.573mm) on Multi-Layer And Track (27.755mm,11.383mm)(63.355mm,11.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-21(44.285mm,12.573mm) on Multi-Layer And Track (27.755mm,11.383mm)(63.355mm,11.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-22(46.825mm,12.573mm) on Multi-Layer And Track (27.755mm,11.383mm)(63.355mm,11.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-23(49.365mm,12.573mm) on Multi-Layer And Track (27.755mm,11.383mm)(63.355mm,11.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-24(51.905mm,12.573mm) on Multi-Layer And Track (27.755mm,11.383mm)(63.355mm,11.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-25(54.445mm,12.573mm) on Multi-Layer And Track (27.755mm,11.383mm)(63.355mm,11.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-26(56.985mm,12.573mm) on Multi-Layer And Track (27.755mm,11.383mm)(63.355mm,11.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-27(59.525mm,12.573mm) on Multi-Layer And Track (27.755mm,11.383mm)(63.355mm,11.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-28(62.065mm,12.573mm) on Multi-Layer And Track (27.755mm,11.383mm)(63.355mm,11.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-3(56.985mm,20.193mm) on Multi-Layer And Track (27.755mm,21.383mm)(63.355mm,21.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-4(54.445mm,20.193mm) on Multi-Layer And Track (27.755mm,21.383mm)(63.355mm,21.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-5(51.905mm,20.193mm) on Multi-Layer And Track (27.755mm,21.383mm)(63.355mm,21.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-6(49.365mm,20.193mm) on Multi-Layer And Track (27.755mm,21.383mm)(63.355mm,21.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-7(46.825mm,20.193mm) on Multi-Layer And Track (27.755mm,21.383mm)(63.355mm,21.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-8(44.285mm,20.193mm) on Multi-Layer And Track (27.755mm,21.383mm)(63.355mm,21.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.09mm < 0.1mm) Between Pad U1-9(41.745mm,20.193mm) on Multi-Layer And Track (27.755mm,21.383mm)(63.355mm,21.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.09mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.084mm < 0.1mm) Between Pad U5-2(5.4mm,23.65mm) on Top Layer And Track (5.499mm,20.934mm)(5.499mm,22.966mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.084mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.084mm < 0.1mm) Between Pad U5-2(5.4mm,23.65mm) on Top Layer And Track (5.499mm,22.966mm)(8.801mm,22.966mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.084mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.084mm < 0.1mm) Between Pad U5-3(6.35mm,23.65mm) on Top Layer And Track (5.499mm,22.966mm)(8.801mm,22.966mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.084mm]
-Rule Violations :43
+Rule Violations :1
 
 Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
-   Violation between Silk To Silk Clearance Constraint: (0.097mm < 0.1mm) Between Text "1" (49.95mm,0.4mm) on Top Overlay And Track (47.921mm,1.03mm)(63.669mm,1.03mm) on Top Overlay Silk Text to Silk Clearance [0.097mm]
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
@@ -264,14 +67,14 @@ Rule Violations :0
 Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('MH2')),(InComponent('J2')) 
 Rule Violations :0
 
-Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.254mm, Vertical Gap = 0.254mm ) (All),(All) 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component SW2-1825910-6 (22.2mm,5.1mm) on Top Layer And SMT Small Component FID2-FID_1MMC (22.2mm,5.4mm) on Top Layer 
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.2mm, Vertical Gap = 0.2mm ) (All),(All) 
+   Violation between Component Clearance Constraint: (Collision < 0.2mm) Between Component SW2-1825910-6 (22.2mm,5.1mm) on L1 And SMT Small Component FID2-FID_1MMC (22.35mm,5.325mm) on L1 
 Rule Violations :1
 
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 190
+Violations Detected : 2
 Waived Violations : 0
-Time Elapsed        : 00:00:03
+Time Elapsed        : 00:00:01
